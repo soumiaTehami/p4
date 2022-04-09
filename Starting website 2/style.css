@@ -17,6 +17,12 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -88,11 +94,6 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -366,9 +367,10 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 130px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+    
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -508,6 +510,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 100%;
 }
 
 .scrollToTop {
@@ -646,12 +649,18 @@ h4,
 h5,
 h6,
 p,
-label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color:black!important;
+    padding: 10px 15px;
+}
+label{
+    padding: 12px 0px;
+    font-family: "helvetica";
+    font-weight: 400;
+    color:black!important;
 }
 
 .container {
@@ -674,10 +683,6 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -775,7 +780,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:black!important;
 }
 
 .btn-atomic-tangerine {
