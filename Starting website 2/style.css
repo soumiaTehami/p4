@@ -741,7 +741,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color:black!important;
 }
 
 .portfolio-thumb {
@@ -1046,6 +1046,6 @@ h4 {
         text-align: center;
     }
 }
-.text-center hero-bloc-text tc-white h1{
-   text-align: center;
+h1 {
+    color: #333!important;
 }
