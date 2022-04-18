@@ -3,8 +3,6 @@ body {
     padding: 0;
     background: #fff;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 a,
@@ -25,9 +23,7 @@ li {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+
     background-size: cover;
     position: relative;
 }
@@ -47,22 +43,6 @@ li {
 
 .bloc-sm {
     padding: 20px 50px;
-}
-
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-    -webkit-background-size: auto !important;
-    -moz-background-size: auto !important;
-    -o-background-size: auto !important;
-    background-size: auto !important;
 }
 
 .bg-repeat {
@@ -167,7 +147,6 @@ li {
     font-weight: 600;
     line-height: 44px;
 }
-
 
 .navbar-brand img {
     max-height: 200px;
@@ -413,12 +392,11 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
+
     animation-fill-mode: none;
 }
 
@@ -510,7 +488,7 @@ h6,
 p,
 .btn,
 a {
-    text-align: center;
+
     font-family: "helvetica";
     font-weight: 400;
     color: black !important;
@@ -563,7 +541,6 @@ label {
     font-size: 16px;
     font-weight: 700;
 }
-
 
 h2 {
     font-size: 22px;
@@ -721,7 +698,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    
 }
 
 @media (max-width: 767px) {
@@ -751,8 +727,6 @@ h4 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
     }
     .nav > li {
         margin-top: 0;
@@ -789,7 +763,7 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
+
         box-shadow: none;
     }
     .navbar-brand img {
